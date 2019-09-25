@@ -1,0 +1,27 @@
+{
+  "name": "itx_token",
+  "version": "1.0.0",
+  "description": "Node app for ITX",
+  "main": "app.js",
+  "dependencies": {
+    "ethereumjs-tx": "^1.3.4",
+    "express": "^4.16.3",
+    "web3-eth-accounts": "^1.0.0-beta.34",
+    "web3": "^0.20.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intcoex/ITX_Token.git"
+  },
+  "author": "Ramlogics",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/intcoex/ITX_Token/issues"
+  },
+  "homepage": "https://github.com/intcoex/ITX_Token#readme"
+}
