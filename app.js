@@ -133,7 +133,7 @@ function EtherTransfer(res,ToAddress,NoEther,FromAddress,PrivateKey){
 
     var count = web3.eth.getTransactionCount(FromAddress);
     var gasPrice = web3.eth.gasPrice;
-    var gasLimit = 300000;
+    var gasLimit = 21000;
 
     var rawTransaction = {
         "from": FromAddress,
@@ -181,7 +181,7 @@ function AllEtherTransfer(res,ToAddress,FromAddress,PrivateKey){
     
  var count = web3.eth.getTransactionCount(FromAddress);
     var gasPrice = web3.eth.gasPrice;
-    var gasLimit = 300000;
+    var gasLimit = 21000;
     var balance = web3.eth.getBalance(FromAddress);
     var fee = gasPrice.mul(gasLimit);
     var NoEther = balance.sub(fee);
