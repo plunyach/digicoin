@@ -169,7 +169,7 @@ function confirm(res,hash){
             status = "Not";
         }
     }else{
-        status = "Panding";
+        status = "Pending";
     }
 
     res.contentType('application/json');
